@@ -8,7 +8,7 @@ const personSchema = new mongoose.Schema({
 	name : {
 		type: String,
 		required: true},
-	age : number,
+	age : Number,
 	favoriteFoods : [String]
 });
 
